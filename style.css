@@ -115,9 +115,6 @@ input{
    line-height: 24px;
    text-align: center;
    cursor: pointer;
-   transform:translateY(-4px);
-   box-shadow:0px 15px 20px  #042758 ;
-   transition-duration: 1s;
 }
 #headerimg{
     margin-left: 42px;
@@ -181,11 +178,23 @@ input{
     font-weight:600;
     line-height:24px;
     margin-top:20px;
-    transform:translateY(-4px);
-    box-shadow:0px 15px 20px  #042758 ;
-    transition-duration: 1s;
     
 }
 #portfolio h2{
     text-align: left;
 }
+#contact-text button:hover{
+    background-color: #0050fcc4;
+    color:white;
+    transform:translateY(-2px);
+    box-shadow:0px 15px 20px  #0065fc5d ;
+    transition-duration: 1s;
+}
+#headerCta button:hover{
+    background-color: #0050fcc4;
+    color:white;
+    transform:translateY(-2px);
+    box-shadow:0px 15px 20px  #0065fc5d ;
+    transition-duration: 1s;
+}
+
